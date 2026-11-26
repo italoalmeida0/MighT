@@ -1,0 +1,280 @@
+@import "tailwindcss";
+
+:root {
+  --might-dark: #1C1E28;
+  --might-navy: #0F1838;
+  --might-cta: #753065;
+  --might-cta-hover: #8B3A78;
+  --might-blue-dark: #144B86;
+  --might-blue-light: #358EC0;
+  --might-bg-light: #A9C6DE;
+
+  --dim-personality: #1FB5D3;
+  --dim-power: #E94B7B;
+  --dim-character: #C6EE00;
+  --dim-character-ink: #0F1838;
+
+  --johari-confirmed: #3D9061;
+  --johari-confirmed-bg: #DBF2E5;
+  --johari-superpowers: #0A5AA9;
+  --johari-superpowers-bg: #A7CDF3;
+  --johari-hidden: #E88F3D;
+  --johari-hidden-bg: #FFE5C7;
+
+  --font-sans: "Mona Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@theme {
+  --font-sans: "Mona Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --color-might-dark: #1C1E28;
+  --color-might-navy: #0F1838;
+  --color-might-cta: #753065;
+  --color-might-blue-dark: #144B86;
+  --color-might-blue-light: #358EC0;
+  --color-might-bg-light: #A9C6DE;
+  --color-dim-personality: #1FB5D3;
+  --color-dim-power: #E94B7B;
+  --color-dim-character: #C6EE00;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font-sans);
+  color: var(--might-dark);
+  background: #0B101D;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Official MighT Brand Gradients & Surfaces */
+.bg-might-blue {
+  background: linear-gradient(180deg, #D1EAFF 0%, #358EC0 38%, #023460 100%);
+}
+
+.bg-might-purple {
+  background: linear-gradient(180deg, #C87BCE 0%, #753065 42%, #3E0C42 100%);
+}
+
+.bg-might-card {
+  background: linear-gradient(180deg, #2360C7 0%, #0A295C 100%);
+}
+
+.bg-might-card-purple {
+  background: linear-gradient(180deg, #9C4B98 0%, #3E0C42 100%);
+}
+
+.bg-might-dark {
+  background-color: #1C1E28;
+}
+
+.bg-might-light {
+  background-color: #A9C6DE;
+}
+
+/* Glassmorphism Components */
+.glass-card {
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 12px 32px rgba(10, 24, 56, 0.14);
+}
+
+.glass-card-strong {
+  background: rgba(255, 255, 255, 0.24);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  box-shadow: 0 14px 36px rgba(10, 24, 56, 0.18);
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: 0 8px 24px rgba(15, 24, 56, 0.08);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  transition: transform 160ms cubic-bezier(0.34, 1.56, 0.64, 1),
+    background-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.glass-pill:hover {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.glass-pill:active {
+  transform: scale(0.96);
+}
+
+.glass-pill-active {
+  background: #FFFFFF;
+  color: #1C1E28;
+  border: 1px solid #FFFFFF;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(15, 24, 56, 0.18);
+}
+
+/* Signature MighT Animations */
+@keyframes partPop {
+  0% {
+    transform: scale(0.84) translateY(4px);
+    opacity: 0.65;
+  }
+  55% {
+    transform: scale(1.07) translateY(-3px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 12px rgba(209, 234, 255, 0.35));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 26px rgba(200, 123, 206, 0.65));
+    transform: scale(1.03);
+  }
+}
+
+@keyframes confettiBurst {
+  0% {
+    transform: translateY(12px) scale(0.75);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(-6px) scale(1.06);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-28px) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes orbitSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-part-pop {
+  animation: partPop 360ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.animate-float-slow {
+  animation: floatSlow 4.2s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.4s ease-in-out infinite;
+}
+
+.animate-confetti {
+  animation: confettiBurst 1.3s ease-out forwards;
+}
+
+.animate-orbit-spin {
+  animation: orbitSpin 36s linear infinite;
+}
+
+/* Mobile-First 393px Phone Shell on Desktop */
+.phone-stage {
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 20% 20%, rgba(53, 142, 192, 0.25), transparent 45%),
+    radial-gradient(circle at 80% 80%, rgba(117, 48, 101, 0.28), transparent 45%),
+    #0B101D;
+}
+
+.phone-shell {
+  position: relative;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: max-width 260ms cubic-bezier(0.22, 1, 0.36, 1), border-radius 260ms ease;
+}
+
+@media (min-width: 520px) {
+  .phone-stage {
+    height: 100dvh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .phone-shell {
+    max-width: 406px;
+    height: min(852px, calc(100dvh - 24px));
+    max-height: calc(100dvh - 24px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 32px 96px rgba(0, 0, 0, 0.62), 0 0 0 6px rgba(255, 255, 255, 0.04);
+  }
+
+  .phone-shell.phone-expanded {
+    max-width: min(1160px, calc(100vw - 40px));
+    border-radius: 28px;
+  }
+}
+
+.phone-shell * {
+  scrollbar-width: none;
+}
+
+.phone-shell *::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "might",
+  "version": "1.0.0",
+  "description": "MighT — Visualiza o teu potencial e a tua carreira",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server/index.ts",
+    "dev:web": "bun run dev-web.ts",
+    "build": "bun run build.ts",
+    "start": "bun run server/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-solid": "^0.475.0",
+    "qrcode": "^1.5.4",
+    "solid-js": "^1.9.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.13",
+    "@babel/preset-typescript": "^7.29.7",
+    "@iconify-json/lucide": "^1.2.157",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/bun": "^1.4.4",
+    "@types/qrcode": "^1.5.6",
+    "babel-preset-solid": "^1.9.19",
+    "postcss": "^8.5.33",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.8.2"
+  }
+}

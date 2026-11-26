@@ -1,0 +1,464 @@
+[
+  {
+    "slug": "product-owner",
+    "titlePt": "Product Owner",
+    "trackPt": "Produto",
+    "level": "now",
+    "summaryPt": "Prioriza valor de negócio, traduz necessidades dos utilizadores em backlog acionável e alinha equipas multidisciplinares.",
+    "tagWeights": {
+      "practical": 0.9,
+      "objective": 0.85,
+      "organizer": 0.95,
+      "planner": 0.9,
+      "translator": 0.85,
+      "collaboration": 0.9,
+      "responsibility": 0.85
+    },
+    "sampleCompanies": [
+      "OutSystems",
+      "Farfetch",
+      "Sonae",
+      "Blip"
+    ],
+    "hypothesisTemplatePt": "Porque combinas foco prático com organização e tradução entre negócio e equipa técnica."
+  },
+  {
+    "slug": "product-manager",
+    "titlePt": "Product Manager",
+    "trackPt": "Produto",
+    "level": "next",
+    "summaryPt": "Define a visão e estratégia de produto, cruza dados qualitativos com impacto e conduz descoberta contínua.",
+    "tagWeights": {
+      "curious": 0.95,
+      "clever": 0.85,
+      "strategizer": 1.0,
+      "solver": 0.9,
+      "communicator": 0.85,
+      "people-oriented": 0.8,
+      "persistence": 0.85,
+      "altruism": 0.7
+    },
+    "sampleCompanies": [
+      "Feedzai",
+      "Talkdesk",
+      "Sword Health",
+      "Critical TechWorks"
+    ],
+    "hypothesisTemplatePt": "Porque transformas curiosidade e visão estratégica em decisões de produto centradas nas pessoas."
+  },
+  {
+    "slug": "growth-product-lead",
+    "titlePt": "Growth Product Lead",
+    "trackPt": "Produto",
+    "level": "next",
+    "summaryPt": "Lidera experimentação rápida, aquisição orgânica e ciclos de retenção baseados em métricas reais.",
+    "tagWeights": {
+      "competitive": 0.85,
+      "optimistic": 0.8,
+      "analyzer": 0.95,
+      "innovator": 0.9,
+      "achiever": 0.9,
+      "courage": 0.85,
+      "freedom": 0.75
+    },
+    "sampleCompanies": [
+      "Farfetch",
+      "Coverflex",
+      "Rows",
+      "Remote"
+    ],
+    "hypothesisTemplatePt": "Porque unes espírito competitivo e experimentação analítica para acelerar crescimento sustentável."
+  },
+  {
+    "slug": "head-of-product",
+    "titlePt": "Head of Product",
+    "trackPt": "Produto",
+    "level": "stretch",
+    "summaryPt": "Orquestra portefólios de produto, desenvolve líderes e liga a ambição de marca ao crescimento da empresa.",
+    "tagWeights": {
+      "wise": 0.9,
+      "confident": 0.85,
+      "strategizer": 0.95,
+      "leader": 1.0,
+      "advisor": 0.85,
+      "maturity": 0.9,
+      "integrity": 0.9
+    },
+    "sampleCompanies": [
+      "OutSystems",
+      "Feedzai",
+      "Sword Health",
+      "EDP"
+    ],
+    "hypothesisTemplatePt": "Porque alias maturidade estratégica, liderança serena e integridade para escalar equipas de produto."
+  },
+  {
+    "slug": "software-engineer",
+    "titlePt": "Engenheiro de Software",
+    "trackPt": "Engenharia & Dados",
+    "level": "now",
+    "summaryPt": "Constrói sistemas fiáveis e código limpo, resolvendo problemas complexos com rigor técnico e espírito de equipa.",
+    "tagWeights": {
+      "logic": 1.0,
+      "intelligent": 0.85,
+      "developer": 0.95,
+      "solver": 0.95,
+      "learner": 0.85,
+      "discipline": 0.85,
+      "collaboration": 0.8
+    },
+    "sampleCompanies": [
+      "Critical TechWorks",
+      "Blip",
+      "Feedzai",
+      "OutSystems"
+    ],
+    "hypothesisTemplatePt": "Porque o teu raciocínio lógico e capacidade de concretização encaixam na criação de software robusto."
+  },
+  {
+    "slug": "data-analyst",
+    "titlePt": "Analista de Dados & BI",
+    "trackPt": "Engenharia & Dados",
+    "level": "now",
+    "summaryPt": "Descobre padrões escondidos em grandes volumes de dados e transforma evidência em recomendações claras.",
+    "tagWeights": {
+      "logic": 0.95,
+      "objective": 0.9,
+      "analyzer": 1.0,
+      "investigator": 0.95,
+      "translator": 0.8,
+      "sincerity": 0.85
+    },
+    "sampleCompanies": [
+      "Sonae",
+      "Jerónimo Martins",
+      "NOS",
+      "Millennium bcp"
+    ],
+    "hypothesisTemplatePt": "Porque investigas com rigor objetivo e traduções claras de dados para decisões fiáveis."
+  },
+  {
+    "slug": "ai-solutions-architect",
+    "titlePt": "Arquiteto de Soluções de IA",
+    "trackPt": "Engenharia & Dados",
+    "level": "next",
+    "summaryPt": "Desenha arquiteturas inteligentes de ponta a ponta, ligando modelos generativos a fluxos reais de negócio.",
+    "tagWeights": {
+      "clever": 0.95,
+      "intuitive": 0.85,
+      "conceptualizer": 0.95,
+      "innovator": 0.95,
+      "developer": 0.85,
+      "connector": 0.85,
+      "freedom": 0.8
+    },
+    "sampleCompanies": [
+      "Defined.ai",
+      "Feedzai",
+      "Unbabel",
+      "Talkdesk"
+    ],
+    "hypothesisTemplatePt": "Porque combinas pensamento conceptual inovador com execução técnica para desenhar sistemas inteligentes."
+  },
+  {
+    "slug": "vp-engineering",
+    "titlePt": "VP of Engineering",
+    "trackPt": "Engenharia & Dados",
+    "level": "stretch",
+    "summaryPt": "Escala cultura de engenharia, autonomia técnica e entrega consistente em múltiplas tribos e mercados.",
+    "tagWeights": {
+      "wise": 0.9,
+      "leader": 0.95,
+      "organizer": 0.85,
+      "moderator": 0.85,
+      "maturity": 0.95,
+      "responsibility": 0.95,
+      "discipline": 0.85
+    },
+    "sampleCompanies": [
+      "Talkdesk",
+      "Farfetch",
+      "OutSystems",
+      "Sword Health"
+    ],
+    "hypothesisTemplatePt": "Porque equilibras disciplina técnica, moderação justa e sentido de responsabilidade em grande escala."
+  },
+  {
+    "slug": "ux-ui-designer",
+    "titlePt": "Designer de Produto (UX/UI)",
+    "trackPt": "Design & Experiência",
+    "level": "now",
+    "summaryPt": "Cria interfaces intuitivas e memoráveis, equilibrando estética, empatia com o utilizador e simplicidade.",
+    "tagWeights": {
+      "imaginative": 0.95,
+      "sensitive": 0.9,
+      "illustrator": 0.95,
+      "creator": 0.95,
+      "composer": 0.85,
+      "humility": 0.75,
+      "compassion": 0.8
+    },
+    "sampleCompanies": [
+      "Blip",
+      "Farfetch",
+      "Significa",
+      "Moss"
+    ],
+    "hypothesisTemplatePt": "Porque a tua sensibilidade visual e imaginação criativa dão forma a experiências humanas marcantes."
+  },
+  {
+    "slug": "ux-researcher",
+    "titlePt": "UX Researcher & Estratégia",
+    "trackPt": "Design & Experiência",
+    "level": "now",
+    "summaryPt": "Escuta utilizadores em profundidade, revela necessidades latentes e orienta decisões antes da primeira linha de código.",
+    "tagWeights": {
+      "curious": 0.95,
+      "sensitive": 0.9,
+      "people-oriented": 0.95,
+      "investigator": 0.95,
+      "writer": 0.85,
+      "tolerance": 0.85,
+      "sincerity": 0.85
+    },
+    "sampleCompanies": [
+      "Critical TechWorks",
+      "Sonae",
+      "Vodafone Portugal",
+      "OutSystems"
+    ],
+    "hypothesisTemplatePt": "Porque a tua escuta empática e curiosidade investigativa revelam o que os utilizadores realmente sentem."
+  },
+  {
+    "slug": "design-systems-lead",
+    "titlePt": "Lead de Design Systems",
+    "trackPt": "Design & Experiência",
+    "level": "next",
+    "summaryPt": "Constrói linguagens visuais modulares e acessíveis que multiplicam a velocidade e coerência de dezenas de equipas.",
+    "tagWeights": {
+      "adaptable": 0.85,
+      "composer": 0.95,
+      "organizer": 0.9,
+      "translator": 0.85,
+      "illustrator": 0.85,
+      "collaboration": 0.9,
+      "discipline": 0.8
+    },
+    "sampleCompanies": [
+      "OutSystems",
+      "Farfetch",
+      "Feedzai",
+      "Talkdesk"
+    ],
+    "hypothesisTemplatePt": "Porque compões sistemas harmoniosos que ligam rigor visual e colaboração fluida entre equipas."
+  },
+  {
+    "slug": "chief-design-officer",
+    "titlePt": "Diretor de Experiência (CXO)",
+    "trackPt": "Design & Experiência",
+    "level": "stretch",
+    "summaryPt": "Eleva o design a vantagem competitiva ao nível executivo, unindo marca, produto e cultura emocional.",
+    "tagWeights": {
+      "passionate": 0.95,
+      "imaginative": 0.9,
+      "creator": 0.9,
+      "influencer": 0.9,
+      "conceptualizer": 0.85,
+      "courage": 0.85,
+      "freedom": 0.85
+    },
+    "sampleCompanies": [
+      "Farfetch",
+      "EDP",
+      "Sonae",
+      "Worten"
+    ],
+    "hypothesisTemplatePt": "Porque transformas paixão criativa e influência conceptual numa visão inspiradora de experiência."
+  },
+  {
+    "slug": "agile-delivery-lead",
+    "titlePt": "Scrum Master / Delivery Lead",
+    "trackPt": "Liderança & Operações",
+    "level": "now",
+    "summaryPt": "Remove bloqueios, cria cadência saudável e garante que equipas autónomas entregam com confiança.",
+    "tagWeights": {
+      "adaptable": 0.95,
+      "optimistic": 0.85,
+      "moderator": 0.95,
+      "organizer": 0.9,
+      "encourager": 0.9,
+      "solidarity": 0.85,
+      "collaboration": 0.9
+    },
+    "sampleCompanies": [
+      "Blip",
+      "NOS",
+      "Critical TechWorks",
+      "Millennium bcp"
+    ],
+    "hypothesisTemplatePt": "Porque manténs a equipa alinhada e motivada mesmo perante mudanças rápidas de prioridade."
+  },
+  {
+    "slug": "strategy-ops-manager",
+    "titlePt": "Gestor de Estratégia & Operações",
+    "trackPt": "Liderança & Operações",
+    "level": "next",
+    "summaryPt": "Estrutura processos críticos, aloca recursos com clareza e transforma planos anuais em execução mensurável.",
+    "tagWeights": {
+      "objective": 0.9,
+      "practical": 0.9,
+      "planner": 0.95,
+      "strategizer": 0.95,
+      "achiever": 0.9,
+      "persistence": 0.9,
+      "responsibility": 0.85
+    },
+    "sampleCompanies": [
+      "EDP",
+      "Sonae",
+      "Jerónimo Martins",
+      "Vodafone Portugal"
+    ],
+    "hypothesisTemplatePt": "Porque desenhas planos realistas e persistes na execução com foco objetivo em resultados."
+  },
+  {
+    "slug": "innovation-venture-lead",
+    "titlePt": "Líder de Inovação & Ventures",
+    "trackPt": "Liderança & Operações",
+    "level": "stretch",
+    "summaryPt": "Explora novos modelos de negócio, lança pilotos em territórios desconhecidos e cria pontes entre startups e corporações.",
+    "tagWeights": {
+      "extroverted": 0.85,
+      "curious": 0.9,
+      "explorer": 1.0,
+      "entrepreneur": 0.95,
+      "innovator": 0.9,
+      "connector": 0.9,
+      "courage": 0.9
+    },
+    "sampleCompanies": [
+      "EDP Innovation",
+      "Sonae IM",
+      "Galp",
+      "Fidelidade"
+    ],
+    "hypothesisTemplatePt": "Porque exploras novos territórios com coragem empreendedora e facilidade em ligar pessoas."
+  },
+  {
+    "slug": "chief-of-staff",
+    "titlePt": "Chief of Staff",
+    "trackPt": "Liderança & Operações",
+    "level": "stretch",
+    "summaryPt": "Braço direito da liderança executiva, desbloqueando decisões transversais e garantindo alinhamento total.",
+    "tagWeights": {
+      "intuitive": 0.85,
+      "clever": 0.85,
+      "advisor": 0.95,
+      "connector": 0.95,
+      "communicator": 0.9,
+      "integrity": 0.95,
+      "humility": 0.85
+    },
+    "sampleCompanies": [
+      "Remote",
+      "Sword Health",
+      "Feedzai",
+      "OutSystems"
+    ],
+    "hypothesisTemplatePt": "Porque combinas discrição humilde, leitura intuitiva do contexto e capacidade de ligar áreas."
+  },
+  {
+    "slug": "talent-partner",
+    "titlePt": "Talent Acquisition Partner",
+    "trackPt": "Pessoas & Crescimento",
+    "level": "now",
+    "summaryPt": "Reconhece potencial humano além do CV e aproxima pessoas certas das equipas onde podem brilhar.",
+    "tagWeights": {
+      "people-oriented": 0.95,
+      "persuasive": 0.85,
+      "connector": 0.95,
+      "communicator": 0.9,
+      "explorer": 0.85,
+      "generosity": 0.85,
+      "sincerity": 0.85
+    },
+    "sampleCompanies": [
+      "Epic Labs",
+      "Talkdesk",
+      "Blip",
+      "Critical TechWorks"
+    ],
+    "hypothesisTemplatePt": "Porque reconheces o valor único em cada pessoa e sabes criar pontes genuínas de talento."
+  },
+  {
+    "slug": "people-culture-lead",
+    "titlePt": "People & Culture Lead",
+    "trackPt": "Pessoas & Crescimento",
+    "level": "next",
+    "summaryPt": "Cultiva ambientes de pertença, rituais de reconhecimento e percursos de desenvolvimento sustentável.",
+    "tagWeights": {
+      "passionate": 0.85,
+      "extroverted": 0.8,
+      "energizer": 0.95,
+      "entertainer": 0.85,
+      "encourager": 0.9,
+      "compassion": 0.95,
+      "solidarity": 0.95,
+      "altruism": 0.9
+    },
+    "sampleCompanies": [
+      "Coverflex",
+      "Sword Health",
+      "Sonae",
+      "EDP"
+    ],
+    "hypothesisTemplatePt": "Porque irradias energia positiva e cuidas da cultura coletiva com empatia e solidariedade."
+  },
+  {
+    "slug": "learning-coach",
+    "titlePt": "Facilitador & Talent Coach",
+    "trackPt": "Pessoas & Crescimento",
+    "level": "now",
+    "summaryPt": "Desperta autoconhecimento em equipas e indivíduos através de escuta ativa, perguntas certas e partilha.",
+    "tagWeights": {
+      "humorous": 0.85,
+      "wise": 0.9,
+      "advisor": 0.95,
+      "learner": 0.95,
+      "writer": 0.85,
+      "generosity": 0.95,
+      "tolerance": 0.9
+    },
+    "sampleCompanies": [
+      "Epic Labs",
+      "Nova SBE",
+      "Católica Lisbon",
+      "Aon"
+    ],
+    "hypothesisTemplatePt": "Porque aprendes em contínuo e partilhas sabedoria com humor leve, generosidade e tolerância."
+  },
+  {
+    "slug": "founder-entrepreneur",
+    "titlePt": "Empreendedor / Founder",
+    "trackPt": "Pessoas & Crescimento",
+    "level": "stretch",
+    "summaryPt": "Transforma uma ideia arriscada numa organização viva, mobilizando equipa, clientes e investidores.",
+    "tagWeights": {
+      "confident": 0.95,
+      "persuasive": 0.9,
+      "entrepreneur": 1.0,
+      "energizer": 0.9,
+      "influencer": 0.9,
+      "achiever": 0.9,
+      "courage": 0.95,
+      "persistence": 0.95
+    },
+    "sampleCompanies": [
+      "Startup Lisboa",
+      "Fábrica de Startups",
+      "Casa do Impacto",
+      "Web Summit Alumni"
+    ],
+    "hypothesisTemplatePt": "Porque a tua confiança persuasiva, energia e persistência mobilizam outros à volta de uma visão."
+  }
+]
